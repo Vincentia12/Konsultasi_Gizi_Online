@@ -1,0 +1,27 @@
+<section>
+   <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/banner-cos.css">
+   <div class="banner_cos">
+      <div class="jarak"></div>
+      <h2 class="text-white text-center">Katering Diet</h2>
+      <div class="banner banner_box_cos">
+         <div class="jarak"></div>
+         <div class="container">
+            <div class="row">
+               <?php foreach ($katering as $data) : ?>
+
+                  <div class="col-md-12 col-lg-6 article__col">
+                     <a href="<?php echo site_url();?>katering/detail/<?php echo $data->id_katering_diet_menu ?>">
+                        <img class="img-fluid" src="<?php echo $data->foto ?>" alt="gambar alam" style="border-radius: 15px;">
+                        <h4 style="margin-left: 15px;"><?php echo $data->nama_menu ?></h4>
+                        <div class="jarak"></div>
+                     </a>
+                  </div>
+
+               <?php endforeach; ?>
+            </div>
+         </div>
+         <br>
+      </div>
+      <br>
+   </div>
+</section>

@@ -1,0 +1,1139 @@
+@media only screen and (max-width: 1250px){
+    .feature-box-item:hover,
+    .fun-facts-box-item:hover,
+    .professional-box-item:hover,
+    .service-box-item:hover{
+        left: 0;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .nav-item {
+        padding: 0 18px;
+    }
+    .navbar-nav li:first-child {
+        padding-left: 30px;
+    }
+    h1{
+        font-size: 48px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    .banner-left-con::after,
+    .quality-system-right-con::before,
+    .form-left-con::before,
+    .mobile-app-left-con::before{
+        display: none;
+    }
+    .feature-box-item h5{
+        font-size: 18px;
+    }
+    .feature-box-item {
+        padding: 52px 42px;
+    }
+    .quality-system-list ul{
+        width: 50%;
+    }
+    .fun-facts-box-item {
+        padding: 30px 18px;
+    }
+    .offer-left-con img{
+        top: 50px;
+    }
+    .generic-banner-content{
+        padding: 70px 0;
+    }
+    .blog-con{
+        padding-bottom: 70px;
+    }
+    .generic-banner-content h1 {
+        margin-bottom: 30px;
+    }
+    .Schedule-con,
+    .contact-page-form-con,
+    .professional-con,
+    .service-box-con,
+    .faq-con{
+        padding: 80px 0;
+    }
+    .core-vaule-con{
+        padding-top:80px ;
+    }
+    .map-con{
+        margin-bottom: 80px;
+    }
+    .Schedule-heading h2, .contact-page-form-txt h2 {
+        margin-bottom: 50px;
+    }
+    .about-fun-facts-con {
+        padding: 80px 25px 70px 25px;
+    }
+    .service-box-item {
+        padding: 50px 28px;
+    }
+    .experiences-con p br{
+        display: none;
+    }
+    .experiences-con ul li {
+        margin-bottom: 12px;
+    }
+    .team-professional-con {
+        padding-bottom: 80px;
+    }
+    .team-detail-con{
+        padding: 80px 0;
+    }
+    .blog-item-content {
+        padding: 22px 15px;
+    }
+    .blog-posts{
+        padding-top: 70px;
+    }
+    .blockquote {
+        margin-left: 30px !important;
+    }
+}
+@media only screen and (max-width: 991px) {
+    h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h4{
+        font-size: 22px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .navbar {
+        padding: 20px 0 !important;
+    }
+    .banner-right-content h1 {
+        margin-bottom: 20px;
+    }
+    .banner-right-content p {
+        margin-bottom: 20px;
+        line-height: 24px;
+    }
+    .banner-right-content{
+        margin-bottom: 20px;
+    }
+    .navbar-nav li:first-child {
+        padding-left: 18px;
+    }
+    .nav-link, .dropdown-menu .dropdown-item {
+        font-size: 16px;
+    }
+    .banner-right-content h5 {
+        font-size: 16px;
+        margin-bottom: 12px;
+        line-height: 16px;
+    }
+    .navbar-collapse{
+    background: var(--secondary--color);
+    padding: 8px 0;
+    min-width: 35%;
+    float: right;
+    position: absolute;
+    right: 0;
+    top: 70px;
+    z-index: 2;
+    }
+    .navbar-btn{
+        display: none;
+    }
+    .nav-item {
+        padding: 10px 30px;
+    }
+    .navbar-nav li:first-child {
+        padding: 10px 30px;
+    }
+    .navbar-toggler.collapsed span:nth-child(3){
+        transform: rotate(0deg);
+    }
+    .navbar-toggler.collapsed span:nth-child(2){
+        opacity: 1;
+    }
+    .navbar-toggler.collapsed span:nth-child(1){
+        transform: rotate(0deg);
+    }
+    .navbar-toggler span:nth-child(1){
+        transform: rotate(45deg);
+        transform-origin: 0% 186%;
+    }
+    .navbar-toggler span:nth-child(2){
+        opacity: 0;
+    }
+    .navbar-toggler span.navbar-toggler-icon {
+        transition: all 0.15s;
+    }
+    .navbar-toggler span:nth-child(3) {
+        transform: rotate(
+            -45deg);
+                transform-origin: 26% 19%;
+    }
+    .navbar-toggler-icon {
+        border-bottom: 2px solid var(--primary--color);
+        display: block;
+        height: 10px;
+        background-image: none !important;
+    }
+    .navbar-toggler {
+        border: none;
+        background: none;
+        margin-top: -8px;
+    }
+    .navbar-toggler:focus {
+        outline: none;
+    }
+    .appointment-btn {
+        padding: 14px 24px;
+        font-size: 16px;
+    }
+    .banner-con {
+        padding-top: 50px;
+        padding-bottom: 80px;
+    }
+    .feature-box-item h5 {
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 20px;
+    }
+    .feature-box-item p {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .feature-box-item figure{
+        margin-bottom: 10px;
+    }
+    .feature-box-item {
+        padding: 30px 10px;
+    }
+    .feature-box-item:hover,
+    .fun-facts-box-item:hover,
+    .professional-box-item:hover,
+    .service-box-item:hover{
+        transform: scale(1);
+        left: 0;
+        bottom: 0;
+        box-shadow: none;
+    }
+    .feature-box-con {
+        margin-bottom: 60px;
+    }  
+    .quality-system-left-con h2,
+    .slider-left-con h2,
+    .mobile-app-right-con h2,
+    .core-vaule-title h2{
+        margin-bottom: 22px;
+    }  
+    .quality-system-left-con p {
+        margin-bottom: 15px;
+        line-height: 24px;
+    }
+    .quality-system-left-con p:nth-child(3) {
+        margin-bottom: 15px;
+    }
+    .quality-system-list ul li {
+        font-size: 14px;
+    }
+    .quality-system-list ul li i {
+        left: -15px;
+    top: 8px;
+    }
+    .offer-right-con h2 a::after{
+        width: 100%;
+    }
+    .fun-facts-con{
+        padding: 80px 0;
+    }
+    .fun-facts-box-con,
+    .blog-posts{
+        padding-top: 50px;
+    }
+    .fun-facts-item-title span {
+        right: -24px;
+    }
+    .form-main-con p,
+    .about-fun-facts-title h2,
+    .professional-title p{
+        margin-bottom: 45px;
+    }
+    .form-main-con h2,
+    .professional-title h2{
+        margin-bottom: 22px;
+    }
+    .weight-footer-inner-con
+    {
+        padding-bottom: 30px;
+    }
+    .footer-con p{
+        font-size: 14px;
+    }
+    .footer-con,
+    .weight-footer-content p,
+    .weight-footer-content figure,
+    .weight-footer-content{
+        margin-bottom: 20px;
+    }
+    .weight-footer-content h5 {
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .weight-footer-content ul li i{
+        padding-right: 2px;
+    }
+    .weight-footer-content ul li{
+        font-size: 13px;
+    }
+    .slider-left-con {
+        padding-top: 0;
+    }
+    .slider-left-con h2 br{
+        display: none;
+    }
+    
+    .slider-inner-con {
+        padding: 50px 70px 100px 70px;
+        margin-bottom: 80px;
+    }
+    .auther-title h4{
+        line-height: 18px;
+    }
+    .auther-con {
+        margin-bottom: 0;
+    }
+    .auther-title{
+        margin-left: 5px;
+    }
+    .news-letter-inner-con {
+        padding: 60px 30px;
+        margin-bottom: 40px;
+    }
+    .mobile-app-right-con p {
+        margin-bottom: 10px;
+    }
+    .mobile-app-right-con p:nth-child(3) {
+        margin-bottom: 10px;
+    }
+    .mobile-app-btn a,
+    .mobile-app-btn a:last-child
+    {
+        padding: 14px 18px;
+        font-size: 16px;
+    }
+    .banner-right-content {
+        padding-top: 0;
+    }
+    .banner-left-con{
+        display: inline-block;
+    }
+    .feature-box-item img{
+        width: 40px;
+        height: 40px;
+    }
+    .quality-system-right-con .left-curve-img {
+        left: -195px;
+    }
+    .offer-inner-con{
+        height: auto;
+        padding: 30px 10px;
+    }
+    .offer-left-con img{
+        left: 16px;
+        top: 75px;
+    }
+    .form-left-con .left-curve-img{
+        right: 235px;
+    }
+    .form-left-con .right-curve-img{
+        left: 160px;
+    }
+    .contact-form button{
+        margin-bottom: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .slider-inner-con .carousel-control-prev{
+        width: 40px;
+    height: 40px;
+    left: 40% !important;
+    }
+    .slider-inner-con .carousel-control-next{
+        width: 40px;
+        height: 40px;
+        left:47% !important;
+    }
+    .logo-con {
+        margin-bottom: 30px;
+    }
+    .weight-footer-con {
+        margin-bottom: 20px;
+    }
+    .auther-title p{
+        text-align: left;
+    }
+    .carousel-control-next i {
+        position: relative;
+        left: 16px;
+    }
+    .offer-note h4 {
+        font-size: 26px;
+    }
+    .offer-note h4 span {
+        font-size: 20px;
+    }
+    .generic-banner-content{
+        padding: 30px 0 50px 0;
+    }
+    .generic-banner-content h1 {
+        margin-bottom: 20px;
+    }
+    .Schedule-heading h2, .contact-page-form-txt h2 {
+        margin-bottom: 40px;
+    }
+    .Schedule-box-item{
+        padding: 30px;
+    }
+    .Schedule-con,
+    .contact-page-form-con,
+    .professional-con,
+    .service-box-con{
+        padding: 50px 3%;
+    }
+    .faq-con{
+        padding: 50px 0;
+    }
+    .blog-con{
+        padding-bottom: 50px;
+    }
+    .core-vaule-con{
+        padding-top:50px ;
+    }
+    .Schedule-box-title {
+        padding-left: 12px;
+    }
+    .contact-form-plan-box input, .contact-form-plan-box textarea, .contact-form-plan-box select{
+        padding: 20px 16px;
+        margin-bottom: 20px;
+    }
+    .map-con {
+        margin-bottom: 40px;
+    }
+    .right-curve-img img{
+        width: 95px;
+    }
+    
+    .left-curve-img img{
+        width: 40px;
+    }
+    .Experince-section .quality-system-right-con .left-curve-img{
+        left: -270px;
+    }
+    .about-fun-facts-con {
+        padding: 60px 25px;
+    }
+    .core-vaule-title p {
+        margin-bottom: 25px;
+        padding-right: 0;
+    }
+    .core-vaule-box-title h5 {
+        margin-bottom: 12px;
+    }
+    .core-vaule-box-title span br{
+        display: none;
+    }
+    .core-vaule-box-item {
+        margin-bottom: 20px;
+    }
+    .core-vaule-right-con{
+        padding-bottom: 50px;
+    }
+    .professional-box-item{
+        padding: 30px 22px;
+    }
+    .professional-box-item small{
+        margin-bottom: 10px;
+    }
+    .professional-box-item img {
+        margin-bottom: 18px;
+    }
+    .professional-box-item span {
+        margin-bottom: 14px;
+        font-size: 14px;
+    }
+    .service-box-item {
+        padding: 30px 5px;
+    }
+    .service-box-item h5 {
+        margin-bottom: 10px;
+    }
+    .service-box-img{
+        padding: 40px 0;
+    }
+    .faq-con button{
+        font-size: 18px;
+    }
+    .faq-con .card {
+        margin-bottom: 20px;
+    }
+    .faq-con .card-header button{
+        padding: 22px 26px;
+    }
+    .faq-system-con .left-curve-img {
+        right: 52px;
+    }
+    .faq-system-con .right-curve-img{
+        right: -100px !important;
+    }    
+    .faq-system-con ul li i {
+        left: -10px !important;
+        top: 6px;
+    }
+    .quality-system-list ul li{
+        margin-left: 12px;
+    }
+    .quality-system-left-con{
+        padding-bottom: 50px;
+    }
+    .banner-left-img{
+        height: 450px;
+    }
+    .feature-box-con {
+        margin-top: -178px;
+    }
+    .form-left-img{
+        height: 500px;
+    }
+    .fun-facts-box-con .row > div:nth-child(2),
+    .service-box-inner-con .row > div:nth-child(2){
+        border-right: 1px solid #d6d6d6 !important;
+    }
+    .about-fun-facts-con .fun-facts-box-con .row > div:nth-child(2){
+        border-color: var(--secondary--color) !important;
+    }
+    .team-professional-con {
+        padding-bottom: 50px;
+    }
+    .team-detail-con{
+        padding: 50px 0;
+    }
+    .team-professional-inner-con {
+        padding: 30px 15px;
+    }
+    .team-detail-con img{
+        margin-bottom: 15px;
+    }
+    .team-professional-lft .skills:nth-child(5){
+        margin-bottom: 24px;
+    }
+    .blog-item-content h4 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 8px;
+    }
+    .blog-item-content{
+        font-size: 14px;
+    }
+    .blog-item-content {
+        padding: 18px 10px;
+    }
+    .blog-item-auther-name span:last-child {
+        margin-left: 2px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .navbar-collapse{
+        min-width: 60%;
+    }
+    .navbar {
+        padding: 20px 0 20px 0 !important;
+    }
+    h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    .quality-system-left-con{
+        padding-bottom: 0;
+    }
+    .faq-system-con ul li i{
+        left: 27px !important;
+    }
+    .banner-right-content h1 {
+        margin-bottom: 15px;
+    }
+    .banner-right-content p {
+        margin-bottom: 16px;
+        line-height: 22px;
+        padding: 0 45px !important;
+    }
+    .banner-right-content h5 {
+        font-size: 16px;
+        margin-bottom: 9px;
+        line-height: 12px;
+    }
+    .appointment-btn {
+        padding: 12px 24px;
+        font-size: 16px;
+    }
+    .feature-box-con .row > div{
+        border: 1px solid #eaeaea !important;
+    }
+    .feature-box-item {
+        padding: 15px 30px;
+        transition: none;
+    }
+    .feature-box-item h5 {
+        font-size: 16px;
+        margin-bottom: 8px;
+        line-height: 16px;
+    }
+    .feature-box-item:hover{
+        transition: none;
+    }
+    .feature-box-con {
+        margin-bottom: 50px;
+    }
+    .quality-system-left-con h2,
+    .slider-left-con h2,
+    .mobile-app-right-con h2{
+        margin-bottom: 16px;
+    }
+    h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 18px;
+    }
+    .quality-system-right-con::before{
+        display: none;
+    }
+    .quality-system-list ul li i {
+        left: 46px;
+            top: 6px;
+    }
+    .offer-inner-con{
+        height: auto;
+        text-align: center;
+        padding:140px 15px 0 15px;
+    }
+    .offer-left-con img{
+        position: relative;
+        left: 0;
+        top: 0;
+    }
+    .offer-right-con {
+        margin-top: 0;
+    }
+    .offer-note{
+        right: 40%;
+    }
+    .shope-btn {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    .offer-note h4 span {
+        font-size: 18px;
+        display: block;
+    }
+    .offer-note h4 {
+        font-size: 22px;
+    }
+    .fun-facts-con {
+        padding: 50px 0;
+    }
+    .fun-facts-box-con {
+        padding-top: 30px;
+    }
+    .fun-facts-item-title span {
+        right: -18px;
+        top: 5px;
+    }
+    .fun-facts-item-title span {
+        font-size: 18px;
+    }
+    .form-main-con p,
+    .about-fun-facts-title h2,
+    .professional-title p{
+        margin-bottom: 35px;
+    }
+    .form-main-con h2,
+    .professional-title h2{
+        margin-bottom: 16px;
+    }
+    .contact-form input, .contact-form select, .contact-form textarea{
+        margin-bottom: 15px;
+    }
+    
+    .logo-inner-con img,
+    .mobile-app-right-con{
+        margin-bottom: 15px;
+    }
+    .slider-inner-con{
+        margin-bottom: 50px;
+    }
+    .weight-footer-content p{
+        font-size: 14px;
+    }
+    .news-letter-title {
+        margin-top: 0;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    .mobile-app-btn a, .mobile-app-btn a:last-child {
+        padding: 12px 18px;
+    }
+    
+    .quality-system-con{
+        text-align: center;
+    }
+    .offer-right-con h2 {
+        margin-bottom: 16px;
+    }
+    .form-left-con .left-curve-img {
+        right: 145px;
+    }
+    .carousel-control-prev {
+        width: 40px;
+        height: 40px;
+        left: 37%;
+   }
+   .top-bar-left-con{
+       display: none;
+   }
+   .carousel-control-next i {
+    position: relative;
+    left: 12px;
+}
+.Schedule-con,
+.contact-page-form-con,
+.professional-con,
+.service-box-con{
+    padding: 40px 3%;
+}
+.faq-con{
+    padding: 40px 0;
+}
+.blog-con{
+    padding-bottom: 40px;
+}
+.Schedule-box-item{
+    margin-bottom: 15px;
+}
+.Schedule-box-title h5 {
+    margin-bottom: 5px;
+}
+.Schedule-box-item img{
+    margin-bottom: 20px;
+}
+.human-img{
+    height: 440px;
+}
+.banner-left-img{
+    height: 430px;
+}
+.quality-system-right-con .right-curve-img,
+.Experince-section .right-curve-img{
+    right: 100px;
+}
+.about-fun-facts-con {
+    padding: 50px 25px;
+}
+.core-vaule-con{
+    padding-top: 40px;
+}
+.quality-system-left-con h2, .slider-left-con h2, .mobile-app-right-con h2, .core-vaule-title h2 {
+    margin-bottom: 18px;
+}
+.core-vaule-box-item figure{
+    position: relative;
+}
+.core-vaule-box-title {
+    padding-left: 0;
+}
+.core-vaule-right-con {
+    padding-bottom: 10px;
+}
+.core-vaule-con .form-left-con .left-curve-img {
+    right: 130px;
+}
+.about-fun-facts-con .fun-facts-box-item {
+    padding: 33px 18px;
+}
+.professional-title p br,
+.form-main-con p br,
+.generic-banner-content p br{
+    display: none;
+}
+.professional-box-item img{
+    width: 150px;
+    height: 150px;
+}
+.professional-box-item{
+    margin-bottom: 15px;
+}
+.service-box-img{
+    padding: 30px 0;
+}
+.professional-box .row:first-child {
+    margin-bottom:0;
+}
+.faq-con .card {
+    margin-bottom: 15px;
+}
+
+.faq-con .card-header button{
+    padding: 22px 26px;
+}
+.faq-system-con .left-curve-img {
+    right: 115px;
+}
+.feature-box-con {
+    margin-top: -150px;
+}
+.team-detail-con {
+    padding: 40px 0;
+}
+.team-professional-con {
+    padding-bottom: 40px;
+}
+.team-contanct {
+    margin-bottom: 12px;
+}
+.blog-item-content {
+    padding: 18px 10px;
+}
+.blog-item-auther-name span:last-child {
+    margin-left: 2px;
+}
+.blog-con p {
+    margin-bottom: 45px;
+}
+.slider-inner-con .carousel-control-next{
+    left:50% !important;
+}
+.blog-item{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.blog-con p {
+    margin-bottom: 35px;
+}
+.blog-posts{
+    padding-top: 40px;
+}
+
+}
+@media only screen and (max-width: 575px){
+    .feature-box-con,
+    .fun-facts-box-con{
+        padding-left:6%;
+        padding-right:6%;
+    }
+    .navbar-collapse{
+        min-width: 100%;
+    }
+    .navbar-collapse{
+        top: 60px;
+    }
+    .navbar {
+        padding: 10px 0 !important;
+    }
+    h1 {
+        font-size: 26px;
+        line-height: 36px;
+        letter-spacing: 1px;
+    }
+    h2 {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .banner-right-content h1 {
+        margin-bottom: 12px;
+    }
+    .banner-right-content p {
+        margin-bottom: 12px;
+        line-height: 20px;
+        padding: 0 10px !important;
+    }
+    .banner-left-con::after{
+        background: none;
+    }
+    .appointment-btn,
+    .mobile-app-btn a, .mobile-app-btn a:last-child{
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    .quality-system-left-con p {
+        margin-bottom: 10px;
+        line-height: 24px;
+    }
+    .quality-system-list ul li {
+        font-size: 12px;
+    }
+    .quality-system-list ul {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .feature-box-con,
+    .slider-inner-con
+    {
+        margin-bottom: 40px;
+    }
+    .quality-system-list ul li i {
+        left: 20px;
+        top: 6px;
+    }
+    .form-main-con p,
+    .about-fun-facts-title h2,
+    .professional-title p{
+        margin-bottom: 25px;
+    }
+    .fun-facts-con {
+        padding: 40px 0;
+    }
+    .logo-inner-con{
+        padding-bottom: 40px;
+    }
+    .logo-con {
+        margin-bottom: 20px;
+    }
+    
+    .weight-footer-inner-con{
+        padding-bottom: 10px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .slider-inner-con {
+        padding: 30px 20px 90px 20px;
+    }
+    .slider-left-con {
+        padding-bottom: 15px;
+    }
+    .news-letter-title h2{
+        line-height: 25px;
+    }
+    .news-letter-inner-con {
+        padding: 45px 20px;
+        margin-bottom: 40px;
+    }
+    .banner-con {
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    .left-curve-img img{
+        width: 40px;
+    }
+    .right-curve-img img{
+        width: 80px;
+
+    }
+    .right-curve-img{
+        top: 55%;
+    }
+    .feature-box-item {
+        padding: 25px 54px;
+    }
+    .feature-box-item p{
+        font-size: 14px;
+    }
+    .offer-note h4 {
+        font-size: 18px;
+        padding-top: 42px;
+    }
+    .offer-note h4 span{
+        font-size: 14px;
+    }
+    .offer-right-con h2 {
+        margin-bottom: 12px;
+    }
+    .offer-note{
+        background-size: 80% auto;
+    }
+    .offer-inner-con{
+        padding-top: 108px;
+    }
+    .fun-facts-box-item {
+        padding: 24px 7px;
+    }
+    .fun-facts-item-content{
+        padding-left: 0;
+    }
+    .fun-facts-item-content h2 {
+        line-height: 24px;
+        margin-top: 8px;
+    }
+    .form-left-con .left-curve-img {
+        right: 50px;
+    }
+    .form-left-con .right-curve-img {
+        left: 8px;
+    }
+    .carousel-control-prev {
+        width: 40px;
+        height: 40px;
+        left: 33%;
+    }
+    .mobile-app-right-con h2{
+        padding: 0 18px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .news-letter-input-feild input{
+        padding: 20px;
+    }
+    .news-letter-input-con button{
+        padding: 14px 20px;
+    }
+    .weight-footer-inner-con .row .col-lg-2:nth-child(2),
+    .weight-footer-inner-con .row .col-lg-2:nth-child(3),
+    .weight-footer-inner-con .row .col-lg-3:nth-child(4){
+        display: none;
+    }
+    .carousel-control-next i{
+        position: relative;
+        left: 10px;
+    }
+    .navbar-toggler{
+        margin-top: 0;
+    }
+    .navbar-brand img,
+    .weight-footer-content img
+    {
+        width: 125px;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+    }
+    .generic-banner-content h1 {
+        margin-bottom: 12px;
+    }
+    .Schedule-heading h2, .contact-page-form-txt h2 {
+        margin-bottom: 30px;
+    }
+    .contact-form-plan-box input, .contact-form-plan-box textarea, .contact-form-plan-box select {
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    .map-con {
+        margin-bottom: 30px;
+    }
+    .human-img{
+        height: 350px;
+    }
+    .Experince-section{
+        padding-top: 30px;
+    }
+    .quality-system-right-con{
+        margin-top: 30px;
+    }
+    .quality-system-right-con .right-curve-img,
+    .Experince-section .right-curve-img{
+    right: 36px;
+   }
+   .quality-system-right-con .left-curve-img {
+    left: -140px;
+   }
+  .Experince-section .quality-system-right-con .left-curve-img {
+    left: -210px;
+  }
+ .about-fun-facts-con .fun-facts-box-item {
+    padding: 20px 7px;
+ }
+ .about-fun-facts-con {
+    padding: 40px 15px;
+}
+.core-vaule-con{
+    padding-top:30px ;
+}
+.core-vaule-con .form-left-con .left-curve-img {
+    right: 55px;
+}
+.core-vaule-box-title h5 {
+    margin-bottom: 8px;
+}
+    .Schedule-con,
+    .contact-page-form-con,
+    .professional-con,
+    .service-box-con{
+        padding: 30px 5%;
+    }
+    .faq-con{
+        padding: 30px 0;
+    }
+    .blog-con{
+        padding-bottom: 30px;
+    }
+    .form-main-con h2,
+    .professional-title h2{
+        margin-bottom: 12px;
+    }    
+    .service-box-img{
+        padding: 20px 0;
+    }
+    .faq-con button {
+        font-size: 14px;
+        white-space: inherit;
+    }
+    .faq-con .card-body{
+        font-size: 14px;
+    }
+    .blog-con p {
+        margin-bottom: 25px;
+    }
+    .faq-con .card-header button,
+    .faq-con .card-body {
+        padding: 15px 7px;
+    }
+    .faq-system-con ul li i {
+        left: 2px !important;
+    }
+    .faq-system-con .left-curve-img {
+        right: 46px;
+    }
+    .faq-system-con .right-curve-img {
+        right: -72px !important;
+    }
+    .quality-system-list ul li{
+        margin-left: 0;
+    }
+    
+.banner-left-img{
+    height: 400px;
+}
+.contact-page-form-txt h2 br{
+    display: none;
+}
+.contact-form-plan-box .down-icon {
+    top: 20px;
+}
+    .service-box-inner-con .row > div{
+        border-right: 1px solid #d6d6d6 !important;
+    }
+    .experiences-con ul li {
+        font-size: 14px;
+    }
+    .slider-inner-con .carousel-control-next {
+        left: 52% !important;
+    }
+    .blog-posts{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+}

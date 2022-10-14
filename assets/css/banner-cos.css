@@ -1,0 +1,18 @@
+.banner_cos {
+    background-color: #FF8A00;
+    /* border: 1px solid black; */
+    min-height: 200px;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    overflow: hidden;
+ }
+
+ .banner_box_cos {
+    background-color: #FFFFFF;
+    color: white;
+    /* border-bottom: 3px solid #FF6600; */
+ }
+
+ .jarak {
+    padding: 1rem;
+ }
